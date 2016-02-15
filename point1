@@ -9,5 +9,5 @@ L.marker([-44.2281059, 169.8154267]).addTo(map)
     .openPopup();
 var popup = L.popup()
     .setLatLng([-44.2281059, 169.8154267])
-    .setContent("Lake Ohau.")
+    .setContent("Lake Ohau!")
     .openOn(map);
