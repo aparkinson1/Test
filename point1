@@ -7,3 +7,7 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 L.marker([-44.2281059, 169.8154267]).addTo(map)
     .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
     .openPopup();
+var popup = L.popup()
+    .setLatLng([-44.2281059, 169.8154267])
+    .setContent("Lake Ohau.")
+    .openOn(map);
